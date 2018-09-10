@@ -1,0 +1,28 @@
+{
+  "name": "mail-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentesha/mailproxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bentesha/mailproxy/issues"
+  },
+  "homepage": "https://github.com/bentesha/mailproxy#readme",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "mailparser": "^2.3.4",
+    "moment": "^2.22.2",
+    "nodemailer": "^4.6.8",
+    "shortid": "^2.2.13",
+    "smtp-server": "^3.4.7",
+    "sqlite3": "^4.0.2"
+  }
+}
